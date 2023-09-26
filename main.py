@@ -11,6 +11,7 @@ class Functions:
     def calculoFaltas(aulas, porcentagem):
         aulas_faltantes = aulas * (1 - (porcentagem / 100))
         print(f'Você pode faltar {aulas_faltantes:.1f} dias')
+        input('Continuar...')
 
     @staticmethod
     def verificarSistemaOperacional():
